@@ -32,6 +32,7 @@ public class CustomArrayListTest {
 		if(!list.get(0).equals("TESTER")) fail("list.get(0) returning improper value.");
 		if(!list.get(1).equals("ONE"))  fail("list.get(1) returning improper value.");
 		if(!list.get(2).equals("PICKLES"))  fail("list.get(2) returning improper value.");
+		System.out.println(list.get(3));
 		if(!list.get(3).equals("THREE"))  fail("list.get(3) returning improper value.");
 	}
 	

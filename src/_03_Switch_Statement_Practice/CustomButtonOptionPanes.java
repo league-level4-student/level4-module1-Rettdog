@@ -13,5 +13,31 @@ public class CustomButtonOptionPanes {
 		
 		//use a switch statement to do something cool for each option
 		
+		switch(input) {
+		case 0:
+			System.out.println("Watch out for school");
+			break;
+		case 1:
+			System.out.println("UUUUGGGGGGGGHHHHHHHHH!!!!!!!!!!!!!!!!!");
+			break;	
+		case 2:
+			System.out.println("You done with homework yet?");
+			break;	
+		case 3:
+			System.out.println("HOUR LUNCH!");
+			break;	
+		case 4:
+			System.out.println("all--most there.....");
+			break;	
+		case 5:
+			System.out.println("Just 2 more hours");
+			break;	
+		case 6:
+			System.out.println("I'm free!!!!!!!!");
+			break;	
+		
+		
+		}
+		
 	}
 }
